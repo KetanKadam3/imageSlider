@@ -47,7 +47,7 @@ function App() {
         slider.removeEventListener("mouseenter", clearSliderInterval);
         slider.removeEventListener("mouseleave", startInterval);
       };
-    }, []);
+    }, [stocks.length]);
   
     const imgStyle = {
       width: "70px",
