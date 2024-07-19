@@ -146,6 +146,7 @@ function App() {
                 <img
                   key={imgindex}
                   src={item}
+                  alt="images"
                   style={
                     hover && imgindex === index
                       ? { ...imgStyle, ...hoverStyle }
